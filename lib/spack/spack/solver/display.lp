@@ -12,3 +12,6 @@
 #show node_target/2.
 #show node_compiler/2.
 #show node_compiler_version/3.
+#show node_flag/3.
+#show node_flag_compiler_default/1.
+#show node_flag_source/2.
