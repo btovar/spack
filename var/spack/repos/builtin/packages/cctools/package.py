@@ -13,8 +13,9 @@ class Cctools(AutotoolsPackage):
     """
 
     homepage = "https://cctools.readthedocs.io"
-    url      = "https://ccl.cse.nd.edu/software/files/cctools-7.2.4-source.tar.gz"
+    url      = "https://ccl.cse.nd.edu/software/files/cctools-7.2.12-source.tar.gz"
 
+    version('7.2.12', sha256='3d77166136acdcd2eb76c485c18723fa6f99a2ee64705d3f02e416b8829bc285')
     version('7.2.10', sha256='4a604329896ae5e0fad7451a3814f531ff2f00a41c96e971ac08276208aa1650')
     version('7.2.4', sha256='36d36465a14b503a27c4739ebe0e11e00970ef6abb07c0365a46670753dddbd0')
     version('7.2.3', sha256='c9d32f9e9d4886ef88b79cc7c898c26e8369a004132080697b8523560cb8765b')
